@@ -1,16 +1,28 @@
 .info-card {
+    background-color: $blue;
     border-radius: $baseRadius;
-    padding: 30px;
+    padding: 1rem;
     display: flex;
     align-items: center;
-    background-color: $blue;
-    width: 100%;
     box-sizing: border-box;
+
+    @include desktop {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-grow: 1;
+    }
 }
 
 .info-card__image {
     width: 75px;
     margin: 0 15px 0 0;
+    border: 3px solid white;
+    border-radius: 50%;
+
+    @include desktop {
+        margin: 0 0 2rem;
+    }
 }
 
 .info-card__subtitle {
@@ -21,4 +33,10 @@
 .info-card__title {
     font-size: 23px;
     font-weight: $weightLight;
+
+    @include desktop {
+        font-size: 32px;
+        margin: 0 0 2.25rem;
+        line-height: 1.1;
+    }
 }

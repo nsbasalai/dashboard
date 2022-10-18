@@ -4,11 +4,23 @@
     width: 100%;
     padding: 25px 35px;
     box-sizing: border-box;
+
+    @include desktop {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .view-selector__item {
     font-size: $baseFs;
     color: $desaturatedBlue;
+    cursor: pointer;
+}
+
+.view-selector__item:not(last-childe) {
+    @include desktop {
+        margin: 0 0 1rem;
+    }
 }
 
 .view-selector__item--active {
