@@ -1,0 +1,48 @@
+.tracking-card {
+    background-color: $darkBlue;
+    border-radius: $baseRadius;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 23px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: -2px;
+}
+
+.tracking-card:hover {
+    background-color: $hoverCard;
+}
+
+.tracking-card__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 10px;
+}
+
+.tracking-card__title {
+    font-weight: $weightMedium;
+}
+
+.tracking-card__menu {
+    width: 20px;
+    height: 6px;
+    cursor: pointer;
+}
+
+.tracking-card__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tracking-card__time {
+    font-size: 28px;
+}
+
+.tracking-card__prev {
+    font-size: 14px;
+    color: $paleBlue;
+}

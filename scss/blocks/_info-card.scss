@@ -1,0 +1,24 @@
+.info-card {
+    border-radius: $baseRadius;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background-color: $blue;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info-card__image {
+    width: 75px;
+    margin: 0 15px 0 0;
+}
+
+.info-card__subtitle {
+    font-size: 15px;
+    margin: 0 0 7px 0;
+}
+
+.info-card__title {
+    font-size: 23px;
+    font-weight: $weightLight;
+}

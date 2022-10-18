@@ -1,0 +1,20 @@
+.view-selector {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px 35px;
+    box-sizing: border-box;
+}
+
+.view-selector__item {
+    font-size: $baseFs;
+    color: $desaturatedBlue;
+}
+
+.view-selector__item--active {
+    color: $white;
+}
+
+.view-selector__item:hover {
+    color: $white;
+}

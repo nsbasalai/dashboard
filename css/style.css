@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: hsl(226deg, 43%, 10%);
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.attribution {
+  margin: 30px 0 10px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  padding: 75px 25px 0;
+}
+
+.dashboard__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 330px;
+}
+
+.dashboard__person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(235deg, 46%, 20%);
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.dashboard__item {
+  margin: 27px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 95% -10%;
+  padding: 40px 0 0;
+}
+
+.dashboard__item--work {
+  background-image: url(../images/icon-work.svg);
+  background-color: hsl(15deg, 100%, 70%);
+}
+
+.dashboard__item--play {
+  background-image: url(../images/icon-play.svg);
+  background-color: hsl(195deg, 74%, 62%);
+}
+
+.dashboard__item--study {
+  background-image: url(../images/icon-study.svg);
+  background-color: hsl(348deg, 100%, 68%);
+}
+
+.dashboard__item--exercise {
+  background-image: url(../images/icon-exercise.svg);
+  background-color: hsl(145deg, 58%, 55%);
+  background-position: 95% 0;
+}
+
+.dashboard__item--social {
+  background-image: url(../images/icon-social.svg);
+  background-color: hsl(264deg, 64%, 52%);
+}
+
+.dashboard__item--care {
+  background-image: url(../images/icon-self-care.svg);
+  background-color: hsl(43deg, 84%, 65%);
+}
+
+.info-card {
+  border-radius: 1rem;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  background-color: hsl(246deg, 80%, 60%);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.info-card__image {
+  width: 75px;
+  margin: 0 15px 0 0;
+}
+
+.info-card__subtitle {
+  font-size: 15px;
+  margin: 0 0 7px 0;
+}
+
+.info-card__title {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.view-selector {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px 35px;
+  box-sizing: border-box;
+}
+
+.view-selector__item {
+  font-size: 18px;
+  color: hsl(235deg, 45%, 61%);
+}
+
+.view-selector__item--active {
+  color: white;
+}
+
+.view-selector__item:hover {
+  color: white;
+}
+
+.tracking-card {
+  background-color: hsl(235deg, 46%, 20%);
+  border-radius: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 23px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: -2px;
+}
+
+.tracking-card:hover {
+  background-color: hsl(235deg, 46%, 30%);
+}
+
+.tracking-card__header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+}
+
+.tracking-card__title {
+  font-weight: 500;
+}
+
+.tracking-card__menu {
+  width: 20px;
+  height: 6px;
+  cursor: pointer;
+}
+
+.tracking-card__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tracking-card__time {
+  font-size: 28px;
+}
+
+.tracking-card__prev {
+  font-size: 14px;
+  color: hsl(236deg, 100%, 87%);
+}/*# sourceMappingURL=style.css.map */

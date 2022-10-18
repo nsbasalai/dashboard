@@ -1,0 +1,66 @@
+.dashboard {
+    display: flex;
+    justify-content: center;
+    padding: 75px 25px 0;
+    ;
+}
+
+.dashboard__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 330px;
+}
+
+.dashboard__person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $darkBlue;
+    border-radius: $baseRadius;
+    width: 100%;
+}
+
+.dashboard__item {
+    margin: 27px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: $baseRadius;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: 95% -10%;
+    padding: 40px 0 0;
+}
+
+.dashboard__item--work {
+    background-image: url(../images/icon-work.svg);
+    background-color: $lightRed-work;
+}
+
+.dashboard__item--play {
+    background-image: url(../images/icon-play.svg);
+    background-color: $softBlue-play;
+}
+
+.dashboard__item--study {
+    background-image: url(../images/icon-study.svg);
+    background-color: $lightRed-study;
+}
+
+.dashboard__item--exercise {
+    background-image: url(../images/icon-exercise.svg);
+    background-color: $limeGreen-exercise;
+    background-position: 95% 0;
+}
+
+.dashboard__item--social {
+    background-image: url(../images/icon-social.svg);
+    background-color: $violet-social;
+}
+
+.dashboard__item--care {
+    background-image: url(../images/icon-self-care.svg);
+    background-color: $softOrange-selfCare;
+}
