@@ -136,7 +136,7 @@ body {
   background-color: hsl(264deg, 64%, 52%);
 }
 
-.dashboard__item--care {
+.dashboard__item--self-care {
   background-image: url(../images/icon-self-care.svg);
   background-color: hsl(43deg, 84%, 65%);
 }
@@ -278,12 +278,12 @@ body {
   }
 }
 
-.tracking-card__prev {
+.tracking-card__prev-period {
   font-size: 14px;
   color: hsl(236deg, 100%, 87%);
 }
 @media (min-width: 1024px) {
-  .tracking-card__prev {
+  .tracking-card__prev-period {
     font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
