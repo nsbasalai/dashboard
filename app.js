@@ -12,7 +12,7 @@ class DashboardItem {
         monthly: 'month',
     }
 
-    constructor(data, container = '.dashboard__content', view = 'weekly') {
+    constructor(data, container = '.dashboard__content', view = 'daily') {
         this.data = data;
         this.container = document.querySelector(container);
         this.view = view;
