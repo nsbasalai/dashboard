@@ -1,4 +1,4 @@
-async function getDashboardData(url = 'https://github.com/nsbasalai/dashboard/blob/main/data.jsonlai.github.io/data.json') {
+async function getDashboardData(url = 'https://github.com/nsbasalai/dashboard/blob/main/data.json') {
     const response = await fetch(url);
     const data = await response.json();
 
