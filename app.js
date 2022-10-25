@@ -1,4 +1,4 @@
-async function getDashboardData(url = '/data.json') {
+async function getDashboardData(url = 'https://nsbasalai.github.io/data.json') {
     const response = await fetch(url);
     const data = await response.json();
 
@@ -12,7 +12,7 @@ class DashboardItem {
         monthly: 'month',
     }
 
-    constructor(data, container = '.dashboard__content', view = 'weekly') {
+    constructor(data, container = '.dashboard__content', view = 'daily') {
         this.data = data;
         this.container = document.querySelector(container);
         this.view = view;
